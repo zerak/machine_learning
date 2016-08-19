@@ -8,3 +8,4 @@
 2. code  算法代码，包括octave和python
    1. cost_function 代价函数
    2. gradient_descent 梯度下降算法求theta向量
+   3. feature_normalize 特征缩放
