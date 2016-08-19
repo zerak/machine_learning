@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 Compute cost for linear regression
 J = compute_cost(x, y, theta)
@@ -16,10 +18,6 @@ c. theta is 1*(n+1) matrix
 
 return real number
 """
-
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import os
 import sys
 import numpy as np

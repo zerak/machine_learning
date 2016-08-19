@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 Gradient descent to learn theta
 theta = gradient_descent(x, y, theta, alpha)
@@ -16,9 +18,6 @@ d. alpha is real number
 
 return theta
 """
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import os
 import sys
 import numpy as np
