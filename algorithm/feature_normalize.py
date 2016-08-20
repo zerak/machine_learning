@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
+Algorithm 2
+
 Normalizes the features in x
 x = feature_normalize(x)
 a. x is m*n matrix
@@ -10,13 +12,13 @@ a. x is m*n matrix
    [x1, ... xn]
    [x1, ... xn]
 
-return x
-
 attention:
 1. 为了使得特征向量矩阵每个元素为double类型
    必须对矩阵x的每个元素乘以1.0，否则当x的每个元素都是int类型时对x[i]直接赋值会导致小数点被丢失
 2. 为了使得计算的精度更准确, 求解矩阵的标准差的时候 需要把函数std的参赛ddof设为1
    同时也为了和octave的结果保持一致
+
+return x m*n matrix
 """
 import os
 import sys

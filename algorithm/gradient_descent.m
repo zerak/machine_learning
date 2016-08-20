@@ -1,3 +1,5 @@
+% algorithm 2
+
 % Gradient descent to learn theta
 % theta = gradient_descent(x, y, theta, alpha)
 % a. x is m*(n+1) matrix
@@ -13,6 +15,7 @@
 %    [theta0, theta1, ... thetan]
 % d. alpha is real number
 
+% return theta 1*(n+1) vector 
 
 function theta = gradient_descent(x, y, theta, alpha)
 

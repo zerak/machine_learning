@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
+Algorithm 3
+
 Gradient descent to learn theta
 theta = gradient_descent(x, y, theta, alpha)
 a. x is m*(n+1) matrix
@@ -16,7 +18,7 @@ c. theta is 1*(n+1) matrix
    [theta0, theta1, ... thetan]
 d. alpha is real number
 
-return theta
+return theta 1*(n+1) vector
 """
 import os
 import sys

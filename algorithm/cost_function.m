@@ -1,3 +1,5 @@
+% algorithm 1
+
 % Compute cost for linear regression
 % J = cost_function(x, y, theta) 
 % a. x is m*(n+1) matrix
@@ -13,6 +15,8 @@
 %    [theta0, theta1, ... thetan]
 
 % attention: octave require function name equal to file name
+
+% return real number
 
 function value = cost_function(x, y, theta)
 

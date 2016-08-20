@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
+Algorithm 1
+
 Compute cost for linear regression
 J = compute_cost(x, y, theta)
 x y theta all is numpy matrix

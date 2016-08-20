@@ -1,3 +1,5 @@
+% algorithm 3
+
 % Normalizes the features in x 
 % x = feature_normalize(x) 
 % a. x is m*n matrix
@@ -9,6 +11,8 @@
 
 % attention: A .- B 表示矩阵A和B每个元素两两相减, 要求A和B size一样
 %            A ./ B 表示矩阵A和B每个元素两两相除, 要求A和B size一样
+
+% return x m*n matrix
 
 function x = feature_normalize(x)
 
