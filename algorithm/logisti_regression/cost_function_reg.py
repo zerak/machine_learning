@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-algorithm 2
+algorithm 3
 
 COSTFUNCTION Compute cost and gradient for logistic regression
 J = COSTFUNCTION(theta, x, y) computes the cost of using theta as the parameter for logistic regression
@@ -27,11 +27,19 @@ import sigmoid
 import numpy as np
 from math import log
 
-def cost_function(theta, x, y):
+def cost_function(theta, x, y, lbda):
     # number of training examples
     m = (y.shape)[1]
+    n = (theta.shape)[1]
+
     value = 0.0
     for i in xrange(m):
         sigmoid_value = sigmoid.sigmoid(theta * x[i].getT())
         value += y[0, i]*log(sigmoid_value) + (1-y[0, i])*log(1.0-sigmoid_value)
-    return -1.0*value/m
+
+    punish_value = 0.0
+    for j in xrange(n):
+        if j > 0:
+            punish_value += pow(theta[j],2)
+
+    return -1.0*value/m + punish_value*lbda/(2*m)
