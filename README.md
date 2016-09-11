@@ -16,4 +16,6 @@
 4. normal_equation 正规方程
 
 #### 2. logisti_regression
-1. sigmoid 
+1. sigmoid 逻辑回归假设函数
+2. cost_function 代价函数
+3. cost_function_reg 正则化代价函数
