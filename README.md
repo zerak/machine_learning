@@ -8,7 +8,12 @@
 3. week_3 逻辑回归模型介绍，同时也介绍如何解决`过拟合`问题 
 
 ### 2. algorithm  算法代码，包括octave和python
+
+#### 1. linear_regression
 1. cost_function 代价函数
 2. gradient_descent 梯度下降算法求theta向量
 3. feature_normalize 特征缩放
 4. normal_equation 正规方程
+
+#### 2. logisti_regression
+1. sigmoid 
